@@ -1,1 +1,12 @@
 /* add home page styles here */
+.left-header-content{
+    display:flex;
+    align-items: flex-start;
+    justify-content: left;
+}
+
+.right-header-content{
+    display:flex;
+    align-items: flex-end;
+    justify-content: right;
+}
