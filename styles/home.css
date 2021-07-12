@@ -1,12 +1,21 @@
 /* add home page styles here */
+header{
+    height:100px;
+    display: flex;
+    flex-direction: row;
+}
 .left-header-content{
     display:flex;
     align-items: flex-start;
     justify-content: left;
+    flex-direction: row;
+    padding: 30px;
 }
 
 .right-header-content{
     display:flex;
-    align-items: flex-end;
+    align-items:inherit;
     justify-content: right;
+    flex-direction: row;
 }
+
