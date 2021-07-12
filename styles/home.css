@@ -35,6 +35,7 @@ header{
      align-items: center;
      justify-content: center;
      flex-direction: column;
+     width: 60%;
  }
 
  p{
@@ -42,6 +43,8 @@ header{
      align-items: center;
      justify-content: center;
      flex-direction: row;
+     text-align: center;
+     width: 60%;
  }
 .notepad{
     margin: 3%;
