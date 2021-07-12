@@ -1,21 +1,41 @@
 /* add home page styles here */
+main{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
 header{
     height:100px;
     display: flex;
     flex-direction: row;
+    width:100%;
 }
 .left-header-content{
     display:flex;
-    align-items: flex-start;
-    justify-content: left;
-    flex-direction: row;
+    justify-content: flex-start;
+    
+    /* flex-direction: row; */
     padding: 30px;
 }
 
 .right-header-content{
     display:flex;
-    align-items:inherit;
-    justify-content: right;
-    flex-direction: row;
+    justify-content: flex-end;
+    width: fit-content;
+    
+    /* flex-direction: row; */
 }
+ #choco-pizza {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+ }
 
+ p{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: row;
+ }
